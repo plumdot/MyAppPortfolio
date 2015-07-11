@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_title"
+        style="@style/TitleFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_title" />
+
+
+    <Button
+        android:id="@+id/btn_popularMovies"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchToast"
+        android:text="@string/btn_popularMovies" />
+
+    <Button
+        android:id="@+id/btn_footballScores"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchToast"
+        android:text="@string/btn_footballScores" />
+
+    <Button
+        android:id="@+id/btn_library"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchToast"
+        android:text="@string/btn_library" />
+
+    <Button
+        android:id="@+id/btn_buildItBigger"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchToast"
+        android:text="@string/btn_buildItBigger" />
+
+    <Button
+        android:id="@+id/btn_xyzReader"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchToast"
+        android:text="@string/btn_xyzReader" />
+
+    <Button
+        android:id="@+id/btn_capstone"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="launchToast"
+        android:text="@string/btn_capstone" />
+
+</LinearLayout>
